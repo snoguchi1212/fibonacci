@@ -4,10 +4,13 @@
 n番目のフィボナッチ数列を返すAPIです。
 
 ## 使用技術
-python==3.10
-fastAPI==0.88.0
-pydantic 1.2.0,<2.0.0
-httpx
+### リポジトリ内
+python==3.10  
+fastAPI==0.88.0  
+pydantic>=1.2.0,<2.0.0  
+httpx  
+### デプロイ先
+aws
 nginx
 
 ## 使用方法
