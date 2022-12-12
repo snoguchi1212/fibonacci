@@ -1,4 +1,4 @@
-# fibonacci
+# n番目のフィボナッチ数列を返すAPI
 
 ## 機能
 n番目のフィボナッチ数列を返すAPIです。
@@ -51,4 +51,7 @@ uvicorn app.server.main:app --reload
     └── test_server
         └── test_main.py
 ```
+
+## 特徴
+fastAPIを利用しているのでローカルサーバーを立ち上げて`127.0.0.1:8000/docs#/`にアクセスしていただくと、OpenAPIの形式でAPIドキュメントを見ることができるようになっています。
 
