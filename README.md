@@ -10,7 +10,7 @@ fastAPI==0.88.0
 pydantic>=1.2.0,<2.0.0  
 httpx  
 ### デプロイ先
-aws
+aws　　
 nginx
 
 ## 使用方法
