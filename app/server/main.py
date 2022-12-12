@@ -9,4 +9,4 @@ app = FastAPI()
 def respond_nth_fibonacci_number(
         fibonacci_idx: int = Query(alias="n")
 ):
-    return FibonacciNumber(fibonacci_idx).fibonacci_nth_number()
+    return {"result": FibonacciNumber(fibonacci_idx).fibonacci_nth_number()}
