@@ -35,6 +35,7 @@ pip install -e .
 ```shell
 uvicorn app.server.main:app --reload
 ```
+5. `127.0.0.1:8000/fib/?n=3`(3のところは整数値で変更自由)でレスポンスを受けることができます。
 
 
 ## ディレクトリ構造
