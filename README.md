@@ -8,11 +8,12 @@ n番目のフィボナッチ数列を返すAPIです。
 python==3.10  
 fastAPI==0.88.0  
 pydantic>=1.2.0,<2.0.0  
-httpx
+httpx  
 uvicorn
   
 ### デプロイ先
-aws　　
+aws  
+gunicorn  
 nginx
 
 ## 使用方法
