@@ -20,18 +20,18 @@ nginx
 ```shell
 git clone https://github.com/snoguchi1212/fibonacci
 ```
-1. cdコマンドでfibonacciに移動後、pipでインストールしてください
+2. cdコマンドでfibonacciに移動後、pipでインストールしてください
 ```shell
 cd fibonacci
 ```
 ```shell
 pip install -r requirements.txt
 ```
-1. テストツールで利用しているpytestの都合上、ペアレントディレクトリの読み込みを行うために以下のコマンドを実行してください
+3. テストツールで利用しているpytestの都合上、ペアレントディレクトリの読み込みを行うために以下のコマンドを実行してください
 ```shell
 pip install -e .
 ```
-1. 以下のコマンドでローカルサーバーを立ち上げてください
+4. 以下のコマンドでローカルサーバーを立ち上げてください
 ```shell
 uvicorn app.server.main:app --reload
 ```
