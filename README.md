@@ -16,6 +16,7 @@ aws
 gunicorn  
 nginx
 
+
 ## 使用方法
 1. git cloneしてください
 ```shell
