@@ -8,25 +8,30 @@ n番目のフィボナッチ数列を返すAPIです。
 python==3.10  
 fastAPI==0.88.0  
 pydantic>=1.2.0,<2.0.0  
-httpx  
+httpx
+uvicorn
+  
 ### デプロイ先
-aws　　
+aws  　　
 nginx
 
 ## 使用方法
-1.　git cloneしてください
+1. git cloneしてください
 ```shell
 git clone https://github.com/snoguchi1212/fibonacci
 ```
-2. pipでインストールしてください
+1. cdコマンドでfibonacciに移動後、pipでインストールしてください
+```shell
+cd fibonacci
+```
 ```shell
 pip install -r requirements.txt
 ```
-3. テストツールで利用しているpytestの都合上、ペアレントディレクトリの読み込みを行うために以下のコマンドを実行してください
+1. テストツールで利用しているpytestの都合上、ペアレントディレクトリの読み込みを行うために以下のコマンドを実行してください
 ```shell
 pip install -e .
 ```
-4. 以下のコマンドでローカルサーバーを立ち上げてください
+1. 以下のコマンドでローカルサーバーを立ち上げてください
 ```shell
 uvicorn app.server.main:app --reload
 ```
