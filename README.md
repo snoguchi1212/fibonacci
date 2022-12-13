@@ -12,7 +12,7 @@ httpx
 uvicorn
   
 ### デプロイ先
-aws  　　
+aws　　
 nginx
 
 ## 使用方法
